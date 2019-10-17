@@ -1,6 +1,6 @@
 {
   "name" : "Twitter",
-  "description" : "See if this is picked up by the package parser.",
+  "description" : "Chat about what’s happening.",
   "version" : "1.0",
   "update_url" : "http://clients2.google.com/service/update2/crx",
   "manifest_version" : 2,
