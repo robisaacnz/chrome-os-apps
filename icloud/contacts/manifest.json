@@ -1,23 +1,23 @@
 {
-  "name":"Contacts",
-  "description":"Access your iCloud contacts.",
-  "version":"1.2",
-  "update_url":"http://clients2.google.com/service/update2/crx",
-  "manifest_version":2,
-  "app":{
-    "urls":[
+  "name" : "Contacts",
+  "description" : "Access your iCloud contacts.",
+  "version" : "1.2",
+  "update_url" : "http://clients2.google.com/service/update2/crx",
+  "manifest_version" : 2,
+  "app" : {
+    "urls" : [
       "https://www.icloud.com/#contacts"
     ],
-    "launch":{
-      "web_url":"https://www.icloud.com/#contacts",
-      "container":"panel"
+    "launch" : {
+      "web_url" : "https://www.icloud.com/#contacts",
+      "container" : "panel"
     }
   },
-  "icons":{
-    "16":"icon-16.png",
-    "128":"icon-128.png"
+  "icons" : {
+    "16" : "icon-16.png",
+    "128" : "icon-128.png"
   },
-  "permissions":[
+  "permissions" : [
     "clipboardRead",
     "clipboardWrite",
     "notifications"
