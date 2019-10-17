@@ -5,7 +5,7 @@
   "manifest_version" : 2,
   "app" : {
     "urls" : [
-      "https://twitter.com"
+      "https://twitter.com/"
     ],
     "launch" : {
       "web_url" : "https://twitter.com/home",
