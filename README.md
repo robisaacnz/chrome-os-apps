@@ -1,2 +1,1 @@
-# figuregroupapps
- 
+Chrome app shells for applications either not available or poorly supported in the Web Store. Used as part of the Figure Group business continuity process.
