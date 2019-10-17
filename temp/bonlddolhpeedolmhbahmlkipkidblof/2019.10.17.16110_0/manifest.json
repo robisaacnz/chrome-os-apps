@@ -1,0 +1,67 @@
+{
+   "app": {
+      "icon_color": "#3B3B3B",
+      "launch": {
+         "web_url": "https://figuregroup.1password.com/home"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://app.1password.com/images/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://app.1password.com/images/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://app.1password.com/images/favicon.ico"
+      }, {
+         "size": 60,
+         "url": "https://app.1password.com/images/apple-touch-icon-iphone.png"
+      }, {
+         "size": 64,
+         "url": "https://app.1password.com/images/apple-touch-icon-ipad.png"
+      }, {
+         "size": 76,
+         "url": "https://app.1password.com/images/apple-touch-icon-ipad.png"
+      }, {
+         "size": 96,
+         "url": "https://app.1password.com/images/apple-touch-icon-iphone-2x.png"
+      }, {
+         "size": 120,
+         "url": "https://app.1password.com/images/apple-touch-icon-iphone-2x.png"
+      }, {
+         "size": 128,
+         "url": "https://app.1password.com/images/apple-touch-icon-ipad-2x.png"
+      }, {
+         "size": 152,
+         "url": "https://app.1password.com/images/apple-touch-icon-ipad-2x.png"
+      }, {
+         "size": 167,
+         "url": "https://app.1password.com/images/apple-touch-icon-ipad-pro.png"
+      }, {
+         "size": 180,
+         "url": "https://app.1password.com/images/apple-touch-icon-iphone-3x.png"
+      }, {
+         "size": 256,
+         "url": "https://app.1password.com/images/apple-touch-icon-iphone-3x.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "120": "icons/120.png",
+      "128": "icons/128.png",
+      "152": "icons/152.png",
+      "16": "icons/16.png",
+      "167": "icons/167.png",
+      "180": "icons/180.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "60": "icons/60.png",
+      "64": "icons/64.png",
+      "76": "icons/76.png",
+      "96": "icons/96.png"
+   },
+   "key": "6zmp8N3FYGVSWRGcGUiO2V6Iw/BCX1G/vF4KhgBa/7Y=",
+   "name": "1Password",
+   "version": "2019.10.17.16110"
+}

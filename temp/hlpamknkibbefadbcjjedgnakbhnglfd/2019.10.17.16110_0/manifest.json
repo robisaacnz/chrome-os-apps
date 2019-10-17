@@ -1,0 +1,43 @@
+{
+   "app": {
+      "icon_color": "#888888",
+      "launch": {
+         "web_url": "https://www.icloud.com/notes/0T6PT0ILk7xRgsT-rfKtYKh9A"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://www.icloud.com/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://www.icloud.com/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://www.icloud.com/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://www.icloud.com/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://www.icloud.com/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://www.icloud.com/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://www.icloud.com/favicon.ico"
+      } ]
+   },
+   "description": "Sign in to iCloud to access your photos, videos, documents, notes, contacts, and more. Use your Apple ID or create a new account to start using Apple services.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "5Wz+VOj1xgY5+GVYu44KXS210BMP9YXL7+/BqVXJoMQ=",
+   "name": "Notes",
+   "version": "2019.10.17.16110"
+}

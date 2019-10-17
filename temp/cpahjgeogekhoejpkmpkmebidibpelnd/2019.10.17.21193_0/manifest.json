@@ -1,0 +1,43 @@
+{
+   "app": {
+      "icon_color": "#F37C23",
+      "launch": {
+         "web_url": "https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://signin.aws.amazon.com/favicon.ico"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "njC5M5WtnEUx1pqmYUNUH31zWHDfapwqJ6Y7/C429fY=",
+   "name": "AWS Console",
+   "version": "2019.10.17.21193"
+}
