@@ -10,25 +10,6 @@ window.onkeydown = function (e) {
     var modifierActive = (navigator.platform.startsWith('Mac')) ? e.metaKey : e.ctrlKey;
     var altModifierActive = (navigator.platform.startsWith('Mac')) ? e.ctrlKey : e.altKey;
 
-    // Enter full screen mode (CMD/ALT + CTRL + F)
-    if (modifierActive && altModifierActive && e.keyCode == 'F'.charCodeAt(0)) {
-        // Get current focused window
-        var window = chrome.app.window.current();
-
-        // Check if currently full screen
-        if (!window.isFullscreen()) {
-            // Enter full screen mode
-            window.fullscreen();
-        }
-        else {
-            // Exit full screen mode
-            window.restore();
-        }
-
-        // Prevent other shortcut checks
-        return;
-    }
-
     // Refresh the page (CTRL/CMD + R)
     if (modifierActive && e.keyCode == 'R'.charCodeAt(0)) {
         webview.reload();
