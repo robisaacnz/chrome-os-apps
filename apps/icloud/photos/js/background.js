@@ -1,5 +1,22 @@
 // This will be injected dynamically at extension creation time
-var appConfig = {"hostname":"icloud.com","userAgent":"","behavior":{"internalLinks":false},"chromeAppWindow":{"id":"embed","frame":{"type":"chrome","color":"#8d8d8d"},"innerBounds":{"width":1180,"height":900}}};
+var appConfig = {
+    "hostname": "icloud.com",
+    "userAgent": "",
+    "behavior": {
+        "internalLinks": false
+    },
+    "chromeAppWindow": {
+        "id": "embed",
+        "frame": {
+            "type": "chrome",
+            "color": "#8d8d8d"
+        },
+        "innerBounds": {
+            "width": 1180,
+            "height": 900
+        }
+    }
+};
 
 /**
  * Listens for the app launching then creates the window
