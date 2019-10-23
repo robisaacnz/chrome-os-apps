@@ -27,6 +27,8 @@ chrome.app.runtime.onRestarted.addListener(function () {
 // Create the window
 function runApp() {
     chrome.app.window.create('html/embed.html', appConfig.chromeAppWindow, onWindowLoaded());
+    // Apply reduced zoom factor to fix goofy Apple default value
+    webview.setZoom("0.8");
 }
 
 function onWindowLoaded(popup) {
