@@ -10,7 +10,7 @@ window.onkeydown = function (e) {
     var modifierActive = (navigator.platform.startsWith('Mac')) ? e.metaKey : e.ctrlKey;
     var altModifierActive = (navigator.platform.startsWith('Mac')) ? e.ctrlKey : e.altKey;
 
-    // Keystroke Ctrl+R reloads the app
+    // Keystroke Ctrl+R restarts the app
     if (modifierActive && e.keyCode == 'R'.charCodeAt(0)) {
         webview.reload();
     }
@@ -18,6 +18,12 @@ window.onkeydown = function (e) {
     // Keystroke Ctrl+= zooms in
     if (modifierActive && e.keyCode == 187) {
         zoomFactor += 0.1;
+
+        // Block excessive zoom
+        if (zoomFactor >= 1.5) {
+            zoomFactor = 1.5;
+        }
+
         webview.setZoom(zoomFactor);
     }
 
@@ -25,9 +31,9 @@ window.onkeydown = function (e) {
     if (modifierActive && e.keyCode == 189) {
         zoomFactor -= 0.1;
 
-        // Don't let zoom drop below 0.2
-        if (zoomFactor <= 0.2) {
-            zoomFactor = 0.2;
+        // Block excessive zoom
+        if (zoomFactor <= 0.4) {
+            zoomFactor = 0.4;
         }
 
         webview.setZoom(zoomFactor);
