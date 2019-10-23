@@ -3,7 +3,7 @@ var appConfig = {
     "hostname": "icloud.com",
     "userAgent": "",
     "behavior": {
-        "internalLinks": false
+        "internalLinks": true
     },
     "chromeAppWindow": {
         "id": "embed",
