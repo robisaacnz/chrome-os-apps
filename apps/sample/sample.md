@@ -1,0 +1,1 @@
+Use this app skeleton as a starting point for new ones. It has maximal permissions.
