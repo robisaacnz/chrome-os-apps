@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Photos",
+    "name": "Photoz",
     "description": "Access to photos in your Apple iCloud account.",
     "version": "1.0",
     "icons": {
