@@ -1,4 +1,3 @@
-// This will be injected dynamically at extension creation time
 var appConfig = {
     "hostname": "icloud.com",
     "userAgent": "",
@@ -15,40 +14,21 @@ var appConfig = {
     }
 };
 
-/**
- * Listens for the app launching then creates the window
- *
- * @see http://developer.chrome.com/apps/app.runtime.html
- * @see http://developer.chrome.com/apps/app.window.html
- */
+// Listen for the app launching then create the window
 chrome.app.runtime.onLaunched.addListener(function () {
     runApp();
 });
 
-/**
- * Listens for the app restarting then re-creates the window.
- *
- * @see http://developer.chrome.com/apps/app.runtime.html
- */
+// Listen for a restart then recreate the window
 chrome.app.runtime.onRestarted.addListener(function () {
     runApp();
 });
 
-/**
- * Creates the window for the application.
- *
- * @see http://developer.chrome.com/apps/app.window.html
- */
 function runApp() {
-    // Creat a new Chrome app window
+    // Create the window
     chrome.app.window.create('html/embed.html', appConfig.chromeAppWindow, onWindowLoaded());
 }
 
-/**
- * Called before the contentWindow's onload event
- *
- * @see http://developer.chrome.com/apps/app.window.html
- */
 function onWindowLoaded(popup) {
     return function (win) {
         // On window loaded event
