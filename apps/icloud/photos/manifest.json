@@ -4,7 +4,8 @@
     "description": "Access photos in your iCloud account.",
     "version": "1.0",
     "icons": {
-        "128": "img/icon.png"
+        "128": "img/128.png",
+        "256": "img/256.png"
     },
     "app": {
         "background": {
