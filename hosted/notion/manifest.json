@@ -8,7 +8,8 @@
     },
     "app": {
         "urls": [
-            "https://www.notion.so/"
+            "https://www.notion.so/",
+            "https://accounts.google.com/"
         ],
         "launch": {
             "web_url": "https://www.notion.so/figuregroup/",
