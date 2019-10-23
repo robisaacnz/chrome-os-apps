@@ -2,9 +2,6 @@
 var appConfig = {
     "hostname": "icloud.com",
     "userAgent": "",
-    "behavior": {
-        "internalLinks": false
-    },
     "chromeAppWindow": {
         "id": "embed",
         "frame": {
@@ -77,28 +74,13 @@ function onWindowLoaded(popup) {
                 var parsedUrl = document.createElement('a');
                 parsedUrl.href = e.targetUrl;
 
-                // Popup?
-                if (e.initialWidth > 0 && e.initialHeight > 0) {
-                    // Open it in a popup window with a set width and height
-                    return chrome.app.window.create('html/embed.html', { frame: { type: 'chrome' }, innerBounds: { width: e.initialWidth, height: e.initialHeight } }, onWindowLoaded(e));
-                }
-                // Open app links internally?
-                else if (appConfig.behavior.internalLinks && parsedUrl.hostname.includes(appConfig.hostname)) {
+                if (parsedUrl.hostname.includes(appConfig.hostname)) {
                     return chrome.app.window.create('html/embed.html', { frame: { type: 'chrome' }, innerBounds: appConfig.chromeAppWindow.innerBounds }, onWindowLoaded(e));
                 }
 
                 // Open the link in a new browser tab/window
                 win.contentWindow.open(e.targetUrl);
             });
-
-            // Is this a popup window?
-            if (popup) {
-                // Override webview source with popup's target URL
-                webview.src = popup.targetUrl;
-
-                // Attach original calling window to popup webview (accessible via window.opener)
-                popup.window.attach(webview);
-            }
         };
     };
 }
