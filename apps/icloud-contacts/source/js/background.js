@@ -28,6 +28,7 @@ chrome.app.runtime.onRestarted.addListener(function () {
 function runApp() {
     chrome.app.window.create('html/embed.html', appConfig.chromeAppWindow, onWindowLoaded());
     // Apply reduced zoom factor to fix goofy Apple default value
+    var webview = document.getElementById('webview');
     webview.setZoom("0.8");
 }
 
