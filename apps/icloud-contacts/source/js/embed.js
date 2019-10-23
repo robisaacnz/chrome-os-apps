@@ -19,7 +19,7 @@ window.onkeydown = function (e) {
     if (modifierActive && e.keyCode == 187) {
         zoomFactor += 0.1;
 
-        // Block excessive zoom factor to prevent iCloud runtime crash
+        // Block excessive zoom
         if (zoomFactor >= 1.5) {
             zoomFactor = 1.5;
         }
@@ -31,7 +31,7 @@ window.onkeydown = function (e) {
     if (modifierActive && e.keyCode == 189) {
         zoomFactor -= 0.1;
 
-        // Block excessive zoom factor to prevent iCloud runtime crash
+        // Block excessive zoom
         if (zoomFactor <= 0.4) {
             zoomFactor = 0.4;
         }
