@@ -1,6 +1,6 @@
 Google stopped maintaining the Chrome Web Store and it's now a toxic, scam-ridden hellscape, but it remains the only supported mechanism for pushing app and extension installs to new sign-ins on Chrome OS devices.
 
-This repository contains a selection of common, mainstream applications that are either unavailable in the Chrome Web Store or are poorly supported. Some effort is made to maintain these apps with the correct URLs and icons, and maintain their availability.
+This repository contains a selection of common, mainstream applications that are either unavailable in the Chrome Web Store or are poorly supported. Some effort is made to keep these apps up to date with the correct URLs and icons, and maintain their availability in the store.
 
 If you use Chrome OS devices as part of a business continuity process, these apps should allow you to push common applications to any Chrome OS device that signs into your G Suite domain, allowing you to make the desktop experience more immediately friendly and familiar.
 
