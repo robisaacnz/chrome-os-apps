@@ -2,8 +2,7 @@
 var webview = document.getElementById('webview');
 
 // Initial page zoom factor
-// Reduced due to goofy Apple default value
-var zoomFactor = 0.8;
+var zoomFactor = 1.0;
 
 // Listen to keydown event
 window.onkeydown = function (e) {
