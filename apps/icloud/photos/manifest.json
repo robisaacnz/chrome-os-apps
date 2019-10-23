@@ -19,6 +19,9 @@
     },
     "permissions": [
         "webview",
-        "fullscreen"
+        "fullscreen",
+        "notifications",
+        "audioCapture",
+        "videoCapture"
     ]
 }
