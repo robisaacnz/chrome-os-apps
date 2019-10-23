@@ -1,17 +1,6 @@
 // Get webview element
 var webview = document.getElementById('webview');
 
-// Get find box elements
-var findBox = document.getElementById('find-box');
-var findInput = document.getElementById('find-text');
-
-// Get dialog box elements
-var dialogBox = document.getElementById("dialog-box");
-var dialogOk = document.getElementById("dialog-box-ok");
-var dialogText = document.getElementById("dialog-box-text");
-var dialogInput = document.getElementById("dialog-box-input");
-var dialogCancel = document.getElementById("dialog-box-cancel");
-
 // Initial page zoom factor
 var zoomFactor = 1.0;
 
@@ -43,24 +32,6 @@ window.onkeydown = function (e) {
     // Refresh the page (CTRL/CMD + R)
     if (modifierActive && e.keyCode == 'R'.charCodeAt(0)) {
         webview.reload();
-    }
-
-    // Find in page (CTRL/CMD + F)
-    if (modifierActive && e.keyCode == 'F'.charCodeAt(0)) {
-        // Show the find box
-        findBox.style.display = 'block';
-
-        // Focus the find input
-        findInput.focus();
-
-        // Select all existing text (if any)
-        findInput.select();
-    }
-
-    // Copy URL (CTRL/CMD + L)
-    if (modifierActive && e.keyCode == 'L'.charCodeAt(0)) {
-        // Copy webview source to clipboard
-        copyToClipboard(webview.src, 'text/plain');
     }
 
     // Zoom in (CTRL/CMD +)
@@ -108,18 +79,6 @@ chrome.runtime.onMessage.addListener(
         }
     }
 );
-
-// Find input: listen to keydown event
-findInput.addEventListener('keyup', function (e) {
-    // Search for current input text
-    webview.find(findInput.value, { matchCase: false });
-
-    // Escape key
-    if (e.keyCode === 27) {
-        webview.stopFinding();
-        findBox.style.display = 'none';
-    }
-});
 
 function copyToClipboard(str, mimetype) {
     // Listen for 'oncopy' event
