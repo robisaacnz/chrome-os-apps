@@ -1,0 +1,18 @@
+{
+    "name": "Photos",
+    "description": "Access photos in your iCloud account.",
+    "version": "1.1",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png"
+    },
+    "app": {
+        "urls": [
+            "https://icloud.com/photos/"
+        ],
+        "launch": {
+            "web_url": "https://icloud.com/photos/",
+            "container": "panel"
+        }
+    }
+}
