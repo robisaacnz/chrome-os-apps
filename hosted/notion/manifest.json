@@ -1,6 +1,6 @@
 {
     "name": "Notion",
-    "description": "Access photos in your iCloud account.",
+    "description": "The all-in-one workspace for your notes, tasks, wikis and databases.",
     "version": "1.1",
     "manifest_version": 2,
     "icons": {
