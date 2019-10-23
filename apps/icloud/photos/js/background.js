@@ -24,8 +24,8 @@ chrome.app.runtime.onRestarted.addListener(function () {
     runApp();
 });
 
+// Create the window
 function runApp() {
-    // Create the window
     chrome.app.window.create('html/embed.html', appConfig.chromeAppWindow, onWindowLoaded());
 }
 
