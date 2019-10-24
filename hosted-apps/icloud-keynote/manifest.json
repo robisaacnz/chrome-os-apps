@@ -1,6 +1,6 @@
 {
-    "name": "Calendar",
-    "description": "Access calendars in your iCloud account.",
+    "name": "Keynote",
+    "description": "Create stunning and memorable presentations.",
     "version": "1.0",
     "manifest_version": 2,
     "icons": {
@@ -9,10 +9,10 @@
     },
     "app": {
         "urls": [
-            "https://icloud.com/calendar/"
+            "https://icloud.com/keynote/"
         ],
         "launch": {
-            "web_url": "https://icloud.com/calendar/",
+            "web_url": "https://icloud.com/keynote/",
             "container": "panel"
         }
     }
