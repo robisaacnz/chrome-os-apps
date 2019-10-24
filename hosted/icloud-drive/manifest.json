@@ -1,0 +1,19 @@
+{
+    "name": "iCloud Drive",
+    "description": "Access files in your iCloud account.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png",
+        "256": "256.png"
+    },
+    "app": {
+        "urls": [
+            "https://icloud.com/drive/"
+        ],
+        "launch": {
+            "web_url": "https://icloud.com/drive/",
+            "container": "panel"
+        }
+    }
+}
