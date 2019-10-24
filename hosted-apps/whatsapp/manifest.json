@@ -1,0 +1,19 @@
+{
+    "name": "WhatsApp",
+    "description": "A cross-platform instant messaging application.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png",
+        "256": "256.png"
+    },
+    "app": {
+        "urls": [
+            "https://web.whatsapp.com/"
+        ],
+        "launch": {
+            "web_url": "https://web.whatsapp.com/",
+            "container": "panel"
+        }
+    }
+}
