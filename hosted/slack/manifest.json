@@ -9,11 +9,10 @@
     },
     "app": {
         "urls": [
-            "https://figuregroupltd.slack.com/",
-            "https://app.slack.com/"
+            "https://app.slack.com/client"
         ],
         "launch": {
-            "web_url": "https://figuregroupltd.slack.com/",
+            "web_url": "https://app.slack.com/client",
             "container": "panel"
         }
     }
