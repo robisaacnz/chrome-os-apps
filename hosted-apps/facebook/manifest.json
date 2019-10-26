@@ -1,6 +1,6 @@
 {
-    "name": "Keynote",
-    "description": "Create stunning and memorable presentations.",
+    "name": "Facebook",
+    "description": "Connect with friends and family by sharing status updates, personal photos and other items of interest.",
     "version": "1.0",
     "manifest_version": 2,
     "icons": {
@@ -9,10 +9,10 @@
     },
     "app": {
         "urls": [
-            "https://icloud.com/keynote/"
+            "https://facebook.com/"
         ],
         "launch": {
-            "web_url": "https://icloud.com/keynote/",
+            "web_url": "https://www.facebook.com/login/",
             "container": "panel"
         }
     }

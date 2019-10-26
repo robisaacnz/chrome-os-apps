@@ -1,0 +1,19 @@
+{
+    "name": "1Password",
+    "description": "A password manager, digital vault, form filler and secure wallet.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png",
+        "256": "256.png"
+    },
+    "app": {
+        "urls": [
+            "https://figuregroup.1password.com/"
+        ],
+        "launch": {
+            "web_url": "https://figuregroup.1password.com/",
+            "container": "panel"
+        }
+    }
+}

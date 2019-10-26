@@ -1,0 +1,18 @@
+{
+    "name": "Find My",
+    "description": "Locate your iPhone, iPad, or Mac if lost or stolen.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png"
+    },
+    "app": {
+        "urls": [
+            "https://icloud.com/find/"
+        ],
+        "launch": {
+            "web_url": "https://icloud.com/find/",
+            "container": "panel"
+        }
+    }
+}
