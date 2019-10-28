@@ -1,0 +1,19 @@
+{
+    "name": "Discord",
+    "description": "A free voice, video and text chat app.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png",
+        "256": "256.png"
+    },
+    "app": {
+        "urls": [
+            "https://discordapp.com/channels/"
+        ],
+        "launch": {
+            "web_url": "https://discordapp.com/channels/",
+            "container": "panel"
+        }
+    }
+}
