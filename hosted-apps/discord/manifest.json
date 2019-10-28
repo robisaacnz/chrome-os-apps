@@ -9,10 +9,10 @@
     },
     "app": {
         "urls": [
-            "https://discordapp.com/channels/"
+            "https://discordapp.com/"
         ],
         "launch": {
-            "web_url": "https://discordapp.com/channels/",
+            "web_url": "https://discordapp.com/activity/",
             "container": "panel"
         }
     }
