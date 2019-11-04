@@ -3,7 +3,7 @@ These are some examples of packaged and hosted apps for Chrome OS. You can downl
 
 If you package these apps and push them to devices, you will need to mark them as private to your domain, because they claim app URLs that belong to other people.
 
-These examples are a work in progress and are not finished, but are available as examples.
+These examples are a work in progress and are **not finished**, but are made available as examples.
 
 ## Background
 Google stopped maintaining the Chrome Web Store and it's now a toxic, scam-ridden hellscape, but it remains the only supported mechanism for pushing app and extension installs to new sign-ins on Chrome OS devices.
@@ -17,3 +17,6 @@ Some apps are simple bookmarks ("hosted", in the Chrome API sense), while others
 NB: You don't need to use these for personal use. Recent builds of Chrome OS include the ability to create shortcuts in the launcher to any web page. These apps are intended for use by G Suite administrators, or where the web app has a bad or non-existent manifest, icon or title.
 
 **Security warning:** Due to a poorly-designed security feature in the Chrome Web Store, anyone with commit access to this repository can change the URL that these apps load, allowing them to capture credentials or cause other disruption. You should audit anything you download, and make your own fork to upload packages to the Chrome Web Store. If you do not understand this risk, you should not use these apps. No warranty is given, express or implied.
+
+## Alternatives
+If you need a packaged app for personal use and are finding the code here a little scary, you can use [Applicationize](https://applicationize.me/) to generate unsigned Chrome extensions you can install locally.
